@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap-Portifolio</title>
+    <!--styling link for the use of Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style>
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}</style>
+</head>
+<body>
+          <!-- Navbar-->
+          <!--Make an individual container for the navbar-->
+          <div class="container-fluid">
+            <div class="row bg-light">
+              <!--The blank on the left-->
+              <div class="col-2"></div>
+              <!--Navbar contents-->
+              <div class="col-8">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light p-0">
+                  <!--questions on how to fully color the background of the text and move the text to the top of aobut me -->
+                  <a class="navbar-brand text-light bg-success  d-flex p-4 h1">Jianhong </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+        
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav">
+                      <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <!--The blank on the right-->
+              <div class="col-2"></div>
+            </div>
+          </div>
+        
+  <br>
+        <!--Center Layout-->
+         <div class="container-fluid">
+            <!--start the content-->
+            <div class="row">
+              <!--blank space on the left of the center-->
+              <div class="col-2"></div>
+              <!--entire middle section with content-->
+              <div class="col-8">
+                <div class="page-header">
+                  <h1 class="text-success"> Portfolio</h1>
+                </div>
+                <hr>
+                <div class="row">
+                  <div class= "col-4">
+                      <img class="project-image" src="../Responsive-Portfolio/assets/images/technics-q-c-640-480-1.jpg" alt="Hangman">
+                      <h3>Hangman Game</h3>
+                  </div>
+                  <div class= "col-4">
+                      <img class="project-image" src="assets/images/rpg.jpg" alt="RPG">
+                      <h3>RPG</h3>
+                  </div>
+              </div>
+              <div class="portfolio row">
+                  <div class="portfolio col-4">
+                      <img class="project-image" src="assets/images/rockpaperscissors.jpg" alt="Rock Paper Scissors">
+                      <h3>Rock, Paper, Scissors</h3>
+                  </div>
+                  <div class="portfolio col-4">
+                      <img class="project-image" src="assets/images/rutgers.jpg" alt="Rutgers Info Widget">
+                      <h3>Rutgers Info Widget</h3>
+                  </div>
+              </div>
+              <div class="portfolio row">
+                  <div class="portfolio col-4">
+                      <img class="project-image" src="assets/images/trivia.jpg" alt="Trivia">
+                      <h3>Trivia Game</h3>
+                  </div>
+              </div>
+          </div>
+          
+              <!--blank space on the right of the content-->
+              <div class="col-2"></div>
+              <!--end of the content-->
+            </div>
+          </div>
+        </div>
+
+          <!--footer-->
+          <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <footer class="fixed-bottom">
+                      <p class="btext-light bg-dark" style="border-top: 8px solid green;text-align:center; height:40px;width: 100%;">
+                        Copyright &copy;</p>
+                    </footer>
+                  </div>
+                </div>
+              </div>
+          <!-- jQuery CDN -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+          <!-- Bootstrap JavaScript CDN -->
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        </body>
+        
+        </html>
